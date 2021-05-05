@@ -7,6 +7,7 @@
 # Inherit vendor submodules
 $(call inherit-product, vendor/zody/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/zody/overlay/overlay.mk)
+$(call inherit-product, vendor/zody/audio/audio.mk)
 
 # Zody version
 -include vendor/zody/common/version.mk
