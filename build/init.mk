@@ -8,5 +8,8 @@
 $(call inherit-product, vendor/zody/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/zody/overlay/overlay.mk)
 
-# Acme version
+# Zody version
 -include vendor/zody/build/tools/version.mk
+
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
