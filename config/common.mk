@@ -11,6 +11,9 @@ $(call inherit-product, vendor/zody/overlay/overlay.mk)
 # Zody version
 -include vendor/zody/common/version.mk
 
+# GMS
+-include vendor/gms/config.mk
+
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
