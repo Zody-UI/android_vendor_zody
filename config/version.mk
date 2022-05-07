@@ -36,3 +36,11 @@ ZODY_DISPLAY_VERSION := ZodyUI-$(ZODY_BRANCH)-v$(ZODY_VERISONCODE)-$(ZODY_DEVICE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.zody.version=$(ZODY_VERSION) \
     ro.zody.build.version=$(ZODY_DISPLAY_VERSION)
+
+ifeq ($(ZODY_WITH_GMS), true)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.zody.gms.type=GMS
+else
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.zody.gms.type=VANILLA
+endif
