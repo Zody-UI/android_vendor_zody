@@ -37,8 +37,83 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/material_simple-celebration_3.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/material_simple-celebration_3.ogg \
     $(LOCAL_PATH)/ringtones/material_minimal.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/material_minimal.ogg \
 
-# Use Material product sounds by default
+# lomiri-sounds (Ubuntu Touch Sounds)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ringtones/ubtouch_Alarm_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Alarm_clock.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Alarm_synth.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Alarm_synth.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Array_mbira.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Array_mbira.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Bliss.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Bliss.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Call_me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Call_me.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Celestial.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Celestial.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Counterpoint.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Counterpoint.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Entropy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Entropy.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Glass_marimba.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Glass_marimba.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Halo_Pentatonic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Halo_Pentatonic.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Harmonics.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Harmonics.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Harp_arp.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Harp_arp.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Koto_chords.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Koto_chords.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Latin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Latin.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Mangoré.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Mangoré.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Marimbach.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Marimbach.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Melody_piano.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Melody_piano.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Sam's_Song.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Sam's_Song.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Soul.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Soul.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Sparkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Sparkle.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Supreme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Supreme.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Suru_arpeggio.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Suru_arpeggio.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Time_not_Lost.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Time_not_Lost.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Tongue_drum.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Tongue_drum.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_UBports.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_UBports.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Ubuntu.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Ubuntu.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Wind_chime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Wind_chime.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Wooden_Drive.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Wooden_Drive.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_sakenointi.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_sakenointi.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_A440.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_A440.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Amsterdam.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Amsterdam.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Blip.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Blip.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Ede.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Ede.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_LowBattery.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_LowBattery.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Mallet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Mallet.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Noti_Karinding.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Noti_Karinding.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Positive.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Positive.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Rhodes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Rhodes.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Sintesis.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Sintesis.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Sintonia.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Sintonia.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Slick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Slick.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Soft_delay.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Soft_delay.ogg \
+    $(LOCAL_PATH)/notifications/ubtouch_Xylo.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/ubtouch_Xylo.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Alarm_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Alarm_clock.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Alarm_synth.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Alarm_synth.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Array_mbira.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Array_mbira.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Bliss.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Bliss.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Call_me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Call_me.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Celestial.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Celestial.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Counterpoint.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Counterpoint.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Entropy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Entropy.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Glass_marimba.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Glass_marimba.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Halo_Pentatonic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Halo_Pentatonic.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Harmonics.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Harmonics.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Harp_arp.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Harp_arp.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Koto_chords.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Koto_chords.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Latin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Latin.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Mangoré.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Mangoré.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Marimbach.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Marimbach.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Melody_piano.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Melody_piano.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Sam's_Song.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Sam's_Song.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Soul.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Soul.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Sparkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Sparkle.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Supreme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Supreme.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Suru_arpeggio.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Suru_arpeggio.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Time_not_Lost.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Time_not_Lost.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Tongue_drum.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Tongue_drum.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_UBports.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_UBports.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Ubuntu.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Ubuntu.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Wind_chime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Wind_chime.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_Wooden_Drive.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Wooden_Drive.ogg \
+    $(LOCAL_PATH)/ringtones/ubtouch_sakenointi.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_sakenointi.ogg \
+
+# Use lomiri-sounds by default
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=material_minimal.ogg \
-    ro.config.alarm_alert=material_gentle.ogg \
-    ro.config.notification_sound=material_simple_1.ogg \
+    ro.config.ringtone=ubtouch_Entropy.ogg \
+    ro.config.alarm_alert=ubtouch_Soul.ogg \
+    ro.config.notification_sound=ubtouch_Xylo.ogg \
