@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2022 Acme
+# Copyright (C) 2022 Zody UI
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 ifeq ($(TARGET_BOOTANIMATION),)
-    TARGET_BOOTANIMATION := vendor/acme/bootanimation/bootanimation.zip
+    TARGET_BOOTANIMATION := vendor/zody/bootanimation/bootanimation.zip
 endif
 
 include $(CLEAR_VARS)

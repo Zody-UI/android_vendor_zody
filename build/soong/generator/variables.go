@@ -6,12 +6,12 @@ import (
 	"android/soong/android"
 )
 
-func acmeExpandVariables(ctx android.ModuleContext, in string) string {
-	acmeVars := ctx.Config().VendorConfig("acmeVarsPlugin")
+func zodyExpandVariables(ctx android.ModuleContext, in string) string {
+	zodyVars := ctx.Config().VendorConfig("zodyVarsPlugin")
 
 	out, err := android.Expand(in, func(name string) (string, error) {
-		if acmeVars.IsSet(name) {
-			return acmeVars.String(name), nil
+		if zodyVars.IsSet(name) {
+			return zodyVars.String(name), nil
 		}
 		// This variable is not for us, restore what the original
 		// variable string will have looked like for an Expand

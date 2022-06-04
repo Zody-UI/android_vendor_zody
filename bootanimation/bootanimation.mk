@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Acme
+# Copyright (C) 2022 Zody UI
 #
 # SPDX-License-Identifier: Apache-2.0
 #
