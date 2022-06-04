@@ -31,6 +31,19 @@ PRODUCT_PACKAGES += \
     LatinIME \
     ThemePicker
 
+# ZodyUI Spectific packages
+PRODUCT_PACKAGES += \
+    OnePlusClock \
+    OnePlusCalculator \
+    OnePlusCamera \
+    ViaBrowser
+
+ifeq ($(ZODY_WITH_HMS), true)
+PRODUCT_PACKAGES += \
+    HMSCore \
+    HuaweiAppMarket
+endif
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
