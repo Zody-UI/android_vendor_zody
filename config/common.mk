@@ -35,13 +35,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OnePlusClock \
     OnePlusCalculator \
-    OnePlusCamera \
     ViaBrowser
 
 ifeq ($(ZODY_WITH_HMS), true)
 PRODUCT_PACKAGES += \
     HMSCore \
     HuaweiAppMarket
+endif
+
+ifeq ($(ZODY_WITH_ONEPLUS_CAMERA), true)
+PRODUCT_PACKAGES += \
+    OnePlusCamera
 endif
 
 # Filesystems tools
