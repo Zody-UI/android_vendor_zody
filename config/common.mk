@@ -35,6 +35,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OnePlusClock \
     OnePlusCalculator \
+    MeizuNotePaper \
+    MeizuToolBox \
+    SogouInputMeizu \
     ViaBrowser
 
 ifeq ($(ZODY_WITH_HMS), true)
