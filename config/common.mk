@@ -10,7 +10,7 @@ $(call inherit-product, vendor/zody/overlay/overlay.mk)
 $(call inherit-product, vendor/zody/audio/audio.mk)
 
 # Zody version
--include vendor/zody/common/version.mk
+$(call inherit-product, vendor/zody/config/version.mk)
 
 # GMS
 -include vendor/gms/config.mk
