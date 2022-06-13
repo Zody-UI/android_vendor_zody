@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/ubtouch_Mangoré.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Mangoré.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Marimbach.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Marimbach.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Melody_piano.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Melody_piano.ogg \
-    $(LOCAL_PATH)/ringtones/ubtouch_Sam's_Song.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Sam's_Song.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Soul.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Soul.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Sparkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Sparkle.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Supreme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ubtouch_Supreme.ogg \
@@ -99,7 +98,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/ubtouch_Mangoré.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Mangoré.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Marimbach.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Marimbach.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Melody_piano.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Melody_piano.ogg \
-    $(LOCAL_PATH)/ringtones/ubtouch_Sam's_Song.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Sam's_Song.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Soul.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Soul.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Sparkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Sparkle.ogg \
     $(LOCAL_PATH)/ringtones/ubtouch_Supreme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ubtouch_Supreme.ogg \
